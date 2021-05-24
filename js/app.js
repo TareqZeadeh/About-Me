@@ -46,7 +46,7 @@ favoritefood = favoritefood.toLowerCase();
 if (favoritefood === 'yes' || favoritefood === 'y') {
 
     //console.log('Your wrong, it is not my favorite food.');
-    alert("Your wrong, it is mot my favorite food.");
+    alert("Your wrong, it is not my favorite food.");
 }
 else if (favoritefood === 'no' || favoritefood === 'n') {
     //console.log('Your Right, Great.');
@@ -92,6 +92,7 @@ else {
 }
 
 
+alert("Mr. "+ username+" ; Again, I am grateful for your visit to my site. I hope you will spend an enjoyable and useful time here.")
 
 
 
