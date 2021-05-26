@@ -69,7 +69,8 @@ else {
 }}
 favoriteFood();
 
-
+function Games(){
+  
 let likegames = prompt('Do you think i like games?');
 
 likegames = likegames.toLowerCase();
@@ -86,6 +87,8 @@ else if (likegames === 'no' || likegames === 'n') {
 else {
   alert('Your answer should be Yes/No or Y/N');
 }
+}
+Games();
 
 let reading = prompt('Do you think i like Reading?');
 
