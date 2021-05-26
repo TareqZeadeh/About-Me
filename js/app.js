@@ -90,6 +90,7 @@ function Games(){
 }
 Games();
 
+
 function Read(){
 
   let reading = prompt('Do you think i like Reading?');
@@ -114,6 +115,7 @@ function Read(){
 Read();
 
 
+function IT(){
 let itrate = 0;
 for (let i = 0; i < 4; i++) {
   itrate = prompt('What do you think I rated the movie (It)? (Pick a number from 1 to 10, *You Have Four Attempts.)');
@@ -144,6 +146,9 @@ for (let i = 0; i < 4; i++) {
 
 }
 alert('I rated (IT) movie with 4');
+}
+IT()
+
 
 let typeofcars=['mercedes','audi','bmw','ford'];
 let carsilike=0;
