@@ -19,7 +19,7 @@ function Color(){
     score++;
   }
   else if (favoritecolor === 'no' || favoritecolor === 'n') {
-  
+
     //console.log('Your wrong, it is my favorite color.');
     alert('Your wrong, it is my favorite color.');
   }
@@ -33,82 +33,85 @@ Color();
 function CarName(){
   let favoritecar = prompt('Do you think i like BMW cars?');
 
-favoritecar = favoritecar.toLowerCase();
-if (favoritecar === 'yes' || favoritecar === 'y') {
+  favoritecar = favoritecar.toLowerCase();
+  if (favoritecar === 'yes' || favoritecar === 'y') {
   //console.log('Your Right, i love the feeling of driving BMW .');
-  alert('Your Right, i love the feeling of driving BMW .');
-  score++;
-}
-else if (favoritecar === 'no' || favoritecar === 'n') {
+    alert('Your Right, i love the feeling of driving BMW .');
+    score++;
+  }
+  else if (favoritecar === 'no' || favoritecar === 'n') {
 
-  //console.log('Your wrong, it is my favorite car.');
-  alert('Your wrong, it is my favorite car.');
-}
-else {
-  alert('Your answer should be Yes/No or Y/N');
-}
+    //console.log('Your wrong, it is my favorite car.');
+    alert('Your wrong, it is my favorite car.');
+  }
+  else {
+    alert('Your answer should be Yes/No or Y/N');
+  }
 }
 CarName();
 
 function favoriteFood(){
   let favoritefood = prompt('Do you think i like mansaf');
 
-favoritefood = favoritefood.toLowerCase();
-if (favoritefood === 'yes' || favoritefood === 'y') {
+  favoritefood = favoritefood.toLowerCase();
+  if (favoritefood === 'yes' || favoritefood === 'y') {
 
-  //console.log('Your wrong, it is not my favorite food.');
-  alert('Your wrong, it is not my favorite food.');
-}
-else if (favoritefood === 'no' || favoritefood === 'n') {
+    //console.log('Your wrong, it is not my favorite food.');
+    alert('Your wrong, it is not my favorite food.');
+  }
+  else if (favoritefood === 'no' || favoritefood === 'n') {
   //console.log('Your Right, Great.');
-  alert('Your Right, Great.');
-  score++;
-}
-else {
-  alert('Your answer should be Yes/No or Y/N');
-}}
+    alert('Your Right, Great.');
+    score++;
+  }
+  else {
+    alert('Your answer should be Yes/No or Y/N');
+  }}
 favoriteFood();
 
 function Games(){
-  
-let likegames = prompt('Do you think i like games?');
 
-likegames = likegames.toLowerCase();
-if (likegames === 'yes' || likegames === 'y') {
+  let likegames = prompt('Do you think i like games?');
+
+  likegames = likegames.toLowerCase();
+  if (likegames === 'yes' || likegames === 'y') {
   //console.log('Your Right, I love games , Especially Battle Royale Games.');
-  alert('Your Right, I love games , Especially Battle Royale Games.');
-  score++;
-}
-else if (likegames === 'no' || likegames === 'n') {
+    alert('Your Right, I love games , Especially Battle Royale Games.');
+    score++;
+  }
+  else if (likegames === 'no' || likegames === 'n') {
 
-  //console.log('Your wrong, I love to spend some of my time playing games, Especially PUBG .');
-  alert('Your wrong,  I love to spend some of my time playing games, Especially PUBG .');
-}
-else {
-  alert('Your answer should be Yes/No or Y/N');
-}
+    //console.log('Your wrong, I love to spend some of my time playing games, Especially PUBG .');
+    alert('Your wrong,  I love to spend some of my time playing games, Especially PUBG .');
+  }
+  else {
+    alert('Your answer should be Yes/No or Y/N');
+  }
 }
 Games();
 
-let reading = prompt('Do you think i like Reading?');
+function Read(){
 
-reading = reading.toLowerCase();
-if (reading === 'yes' || reading === 'y') {
+  let reading = prompt('Do you think i like Reading?');
+
+  reading = reading.toLowerCase();
+  if (reading === 'yes' || reading === 'y') {
   //console.log('Your Right, I love reading , especially before go to sleep. ');
-  alert('Your Right, I love reading , especially before go to sleep.');
-  score++;
+    alert('Your Right, I love reading , especially before go to sleep.');
+    score++;
+  }
+  else if (reading === 'no' || reading === 'n') {
+
+    //console.log('Your wrong, I love to spend some of my time some pages of web programming book.');
+    alert('Your wrong,  I love to spend some of my time some pages of web programming book.');
+  }
+  else {
+    alert('Your answer should be Yes/No or Y/N');
+  }
+
 }
-else if (reading === 'no' || reading === 'n') {
 
-  //console.log('Your wrong, I love to spend some of my time some pages of web programming book.');
-  alert('Your wrong,  I love to spend some of my time some pages of web programming book.');
-}
-else {
-  alert('Your answer should be Yes/No or Y/N');
-}
-
-
-
+Read();
 
 
 let itrate = 0;
