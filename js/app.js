@@ -2,28 +2,33 @@
 
 
 
+
 let username = prompt('What is Your Name?');
 alert('Hi ' + username + ', I am grateful to have you here');
 
 
 
-let favoritecolor = prompt('Do you think i like the black color?');
 let score =0;
 
-favoritecolor = favoritecolor.toLowerCase();
-if (favoritecolor === 'yes' || favoritecolor === 'y') {
-  //console.log('Your Right, Great.');
-  alert('Your Right, Great.');
-  score++;
+function Color(){
+  let favoritecolor = prompt('Do you think i like the black color?');
+  favoritecolor = favoritecolor.toLowerCase();
+  if (favoritecolor === 'yes' || favoritecolor === 'y') {
+    //console.log('Your Right, Great.');
+    alert('Your Right, Great.');
+    score++;
+  }
+  else if (favoritecolor === 'no' || favoritecolor === 'n') {
+  
+    //console.log('Your wrong, it is my favorite color.');
+    alert('Your wrong, it is my favorite color.');
+  }
+  else {
+    alert('Your answer should be Yes/No or Y/N');
+  }
 }
-else if (favoritecolor === 'no' || favoritecolor === 'n') {
+Color();
 
-  //console.log('Your wrong, it is my favorite color.');
-  alert('Your wrong, it is my favorite color.');
-}
-else {
-  alert('Your answer should be Yes/No or Y/N');
-}
 
 let favoritecar = prompt('Do you think i like BMW cars?');
 
