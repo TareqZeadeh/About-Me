@@ -50,7 +50,8 @@ else {
 }
 CarName();
 
-let favoritefood = prompt('Do you think i like mansaf');
+function favoriteFood(){
+  let favoritefood = prompt('Do you think i like mansaf');
 
 favoritefood = favoritefood.toLowerCase();
 if (favoritefood === 'yes' || favoritefood === 'y') {
@@ -65,7 +66,9 @@ else if (favoritefood === 'no' || favoritefood === 'n') {
 }
 else {
   alert('Your answer should be Yes/No or Y/N');
-}
+}}
+favoriteFood();
+
 
 let likegames = prompt('Do you think i like games?');
 
