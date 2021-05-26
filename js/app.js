@@ -30,7 +30,8 @@ function Color(){
 Color();
 
 
-let favoritecar = prompt('Do you think i like BMW cars?');
+function CarName(){
+  let favoritecar = prompt('Do you think i like BMW cars?');
 
 favoritecar = favoritecar.toLowerCase();
 if (favoritecar === 'yes' || favoritecar === 'y') {
@@ -46,6 +47,8 @@ else if (favoritecar === 'no' || favoritecar === 'n') {
 else {
   alert('Your answer should be Yes/No or Y/N');
 }
+}
+CarName();
 
 let favoritefood = prompt('Do you think i like mansaf');
 
