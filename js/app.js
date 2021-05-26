@@ -116,71 +116,74 @@ Read();
 
 
 function IT(){
-let itrate = 0;
-for (let i = 0; i < 4; i++) {
-  itrate = prompt('What do you think I rated the movie (It)? (Pick a number from 1 to 10, *You Have Four Attempts.)');
-  if (itrate < 3) {
-    alert('too low');
+  let itrate = 0;
+  for (let i = 0; i < 4; i++) {
+    itrate = prompt('What do you think I rated the movie (It)? (Pick a number from 1 to 10, *You Have Four Attempts.)');
+    if (itrate < 3) {
+      alert('too low');
 
-  }
-  else if (itrate > 10) {
-    alert('Please, Pick a number from 1 to 10');
-  }
-  else if (itrate === 3) {
+    }
+    else if (itrate > 10) {
+      alert('Please, Pick a number from 1 to 10');
+    }
+    else if (itrate === 3) {
 
-    alert('too close');
-  }
-  else if (itrate === 5) {
-    alert('too close');
+      alert('too close');
+    }
+    else if (itrate === 5) {
+      alert('too close');
 
-  }
-  else if (itrate > 5) {
-    alert('too high');
-  }
-  else if (itrate === 4) {
-    alert('That\'s right, this movie does not deserve a rating higher than 4.');
-    score++;
-    i = 4;
-
-  }
-
-}
-alert('I rated (IT) movie with 4');
-}
-IT()
-
-
-let typeofcars=['mercedes','audi','bmw','ford'];
-let carsilike=0;
-let flag=false;
-for(let i= 0; i < 6; i++)
-{
-  carsilike=prompt('I like 4 types of cars, choose one and I will tell you if it is my favorite or not');
-  carsilike=carsilike.toLowerCase();
-  for(let j = 0; j < typeofcars.length; j++)
-  {
-
-    if(typeofcars[j]===carsilike)
-    {
-      alert('That\'s right, this is one of my favorite types of cars');
-      flag=true;
+    }
+    else if (itrate > 5) {
+      alert('too high');
+    }
+    else if (itrate === 4) {
+      alert('That\'s right, this movie does not deserve a rating higher than 4.');
       score++;
-      i=6;
-      break;
+      i = 4;
+
     }
 
   }
-  if(flag)
-  {
-    break;
-  }
-  else
-  {
-    alert('This is wrong, this is not one of my favorite types of cars');
-  }
-
+  alert('I rated (IT) movie with 4');
 }
+IT();
 
+
+function CarsType(){
+
+  let typeofcars=['mercedes','audi','bmw','ford'];
+  let carsilike=0;
+  let flag=false;
+  for(let i= 0; i < 6; i++)
+  {
+    carsilike=prompt('I like 4 types of cars, choose one and I will tell you if it is my favorite or not');
+    carsilike=carsilike.toLowerCase();
+    for(let j = 0; j < typeofcars.length; j++)
+    {
+
+      if(typeofcars[j]===carsilike)
+      {
+        alert('That\'s right, this is one of my favorite types of cars');
+        flag=true;
+        score++;
+        i=6;
+        break;
+      }
+
+    }
+    if(flag)
+    {
+      break;
+    }
+    else
+    {
+      alert('This is wrong, this is not one of my favorite types of cars');
+    }
+
+  }
+}
+CarsType();
 
 
 
