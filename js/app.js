@@ -121,20 +121,20 @@ function it(){
     itrate = prompt('What do you think I rated the movie (It)? (Pick a number from 1 to 10, *You Have Four Attempts.)');
 
 
-    if (itrate == 4) {
+    if (itrate === '4') {
       alert('That\'s right, this movie does not deserve a rating higher than 4.');
       score++;
       i = 4;
     }
 
-    else if (itrate == 3) {
+    else if (itrate === '3') {
 
       alert('too close');
 
 
     }
 
-    else if (itrate == 5)
+    else if (itrate === '5')
     {
       alert('too close');
     }
