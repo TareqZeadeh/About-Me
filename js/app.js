@@ -10,7 +10,7 @@ alert('Hi ' + username + ', I am grateful to have you here');
 
 let score =0;
 
-function Color(){
+function color(){
   let favoritecolor = prompt('Do you think i like the black color?');
   favoritecolor = favoritecolor.toLowerCase();
   if (favoritecolor === 'yes' || favoritecolor === 'y') {
@@ -27,10 +27,10 @@ function Color(){
     alert('Your answer should be Yes/No or Y/N');
   }
 }
-Color();
+color();
 
 
-function CarName(){
+function carName(){
   let favoritecar = prompt('Do you think i like BMW cars?');
 
   favoritecar = favoritecar.toLowerCase();
@@ -48,7 +48,7 @@ function CarName(){
     alert('Your answer should be Yes/No or Y/N');
   }
 }
-CarName();
+carName();
 
 function favoriteFood(){
   let favoritefood = prompt('Do you think i like mansaf');
@@ -69,7 +69,7 @@ function favoriteFood(){
   }}
 favoriteFood();
 
-function Games(){
+function games(){
 
   let likegames = prompt('Do you think i like games?');
 
@@ -88,10 +88,10 @@ function Games(){
     alert('Your answer should be Yes/No or Y/N');
   }
 }
-Games();
+games();
 
 
-function Read(){
+function read(){
 
   let reading = prompt('Do you think i like Reading?');
 
@@ -112,10 +112,10 @@ function Read(){
 
 }
 
-Read();
+read();
 
 
-function IT(){
+function it(){
   let itrate = 0;
   for (let i = 0; i < 4; i++) {
     itrate = prompt('What do you think I rated the movie (It)? (Pick a number from 1 to 10, *You Have Four Attempts.)');
@@ -147,10 +147,10 @@ function IT(){
   }
   alert('I rated (IT) movie with 4');
 }
-IT();
+it();
 
 
-function CarsType(){
+function carsType(){
 
   let typeofcars=['mercedes','audi','bmw','ford'];
   let carsilike=0;
@@ -183,7 +183,7 @@ function CarsType(){
 
   }
 }
-CarsType();
+carsType();
 
 
 
