@@ -1,6 +1,6 @@
 'use strict';
 
-/* 
+
 
 
 let username = prompt('What is Your Name?');
@@ -234,4 +234,3 @@ break;
 
 
 
-*/
