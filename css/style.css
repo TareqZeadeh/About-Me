@@ -1,0 +1,112 @@
+h1{
+
+    background-color: blue;
+    color:aqua;
+    font-size: 450%;
+    padding: 5%;
+    text-align: center;
+    margin-left: 20%;
+    width: 50%;
+    
+}
+
+nav{
+    padding: 5%;
+    text-align: center;
+    margin: 5% , 5% , 5% , 5%;
+    font-size: 150%;
+}
+#url{
+    
+    background:gray;
+    
+}
+#url li{
+    margin: 10% , 10% , 10% , 10%;
+    display:block;
+    padding-bottom: 3%;
+
+}
+#githup a{
+    font-size:100%;
+    
+    color: whitesmoke;
+    background-color: rgb(19, 18, 18);
+}
+#linkedin a{
+    font-size:100%;
+    color: whitesmoke;
+    background-color: rgb(48, 48, 241);
+}
+
+main{
+    background: whitesmoke;
+}
+#selfinfo{
+    font-size: 200%;
+    padding: 5%;
+    margin: 10% , 10% , 10% , 10%;
+    line-height: 100%;
+    list-style:circle;
+    background-color: gray;
+
+}
+#selfinfo :first-child{
+    list-style:none;
+}
+
+#selfinfo li{
+background-color: rgb(153, 152, 152);
+
+}
+
+#pic{
+ width: 10%;
+ height: 10%; 
+ float: right; 
+  
+}
+h2{
+
+    background-color: rgb(1, 1, 70);
+    color:rgb(85, 79, 79);
+    font-size: 250%;
+    padding: 5%;
+    text-align: center;
+    margin: 10% , 10% , 10% , 10%;
+}
+   
+#favmov
+{
+    padding: 5%;
+    margin: 10% , 10% , 10% , 10%;
+    line-height: 100%;
+    list-style:decimal;
+    background-color: gray;
+
+
+}
+
+
+
+
+ol li{
+    
+    width: 100%;
+    text-align:justify;
+    font-size: 150%;
+    color: rgb(85, 79, 79);
+    background: rgb(1, 1, 70);
+    padding: 3%;
+    margin: 10px 10px 10px 10px;
+    line-height: 100%;
+
+}
+
+
+footer{
+    text-align :justify;
+    background-color:gray;
+    padding: 10px;
+    font-size: 200%;
+}
